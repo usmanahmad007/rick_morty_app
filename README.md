@@ -33,11 +33,11 @@ The app supports **pagination**, **offline caching**, and **favorites management
 dependencies:
   flutter:
     sdk: flutter
-  get: ^4.6.6
-  http: ^1.2.0
+  get: ^4.7.3
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  cached_network_image: ^3.3.1
+  cached_network_image: ^3.4.1
+  http: ^1.6.0
 ```
 
 ---
@@ -51,7 +51,7 @@ dependencies:
 
 ### Steps
 ```bash
-git clone <repository-url>
+git clone https://github.com/usmanahmad007/rick_morty_app.git
 cd project-folder
 flutter pub get
 flutter run
@@ -60,8 +60,8 @@ flutter run
 ---
 
 ## 🔧 Flutter Environment
-- Flutter SDK: 3.24.x
-- Dart SDK: >=3.2.0 <4.0.0
+- Flutter SDK: 3.40.0-0.2.pre
+- Dart SDK: 3.11.0
 
 ---
 

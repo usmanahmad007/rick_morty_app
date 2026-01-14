@@ -1,17 +1,91 @@
-# rick_morty_app
+# Rick and Morty Characters App (Flutter)
 
-A new Flutter project.
+## 📱 Project Description
 
-## Getting Started
+This is a **Flutter-based mobile application** that displays characters from the **Rick and Morty API**.
+The app supports **pagination**, **offline caching**, and **favorites management**, ensuring smooth usage even without an internet connection.
 
-This project is a starting point for a Flutter application.
+### Key Features
+- 📜 Infinite scrolling (pagination)
+- ⭐ Favorites management (saved locally)
+- 💾 Offline support using Hive
+- 🔄 Pull-to-refresh
+- 🌗 Light & Dark theme
+- 🧭 Bottom navigation (Characters & Favorites)
+- ⚡ GetX for state management
+- 🖼 Image caching
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- GetX
+- Hive
+- HTTP
+- Cached Network Image
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  http: ^1.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.1
+```
+
+---
+
+## 🚀 Assembly & Start-up Instructions
+
+### Prerequisites
+- Flutter SDK installed
+- Android Studio / VS Code
+- Emulator or physical device
+
+### Steps
+```bash
+git clone <repository-url>
+cd project-folder
+flutter pub get
+flutter run
+```
+
+---
+
+## 🔧 Flutter Environment
+- Flutter SDK: 3.24.x
+- Dart SDK: >=3.2.0 <4.0.0
+
+---
+
+## 📂 Project Structure
+```
+lib/
+ ├── controllers/
+ ├── models/
+ ├── services/
+ ├── screens/
+ ├── widgets/
+ ├── theme/
+ └── main.dart
+```
+
+---
+
+## 💾 Offline & Favorites
+- Data cached locally using Hive
+- Favorites persist after app restart
+- Works without internet once data is cached
+
+---
+
+## 👤 Author
+**Usman Ahmad**
+Flutter Developer
